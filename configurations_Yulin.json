@@ -1,0 +1,161 @@
+{
+  "DNDC folder": "C:\\DNDC",
+  "Input file": "C:\\DNDC\\DNDC_Validation_cases\\Korea_Cheorwon_Rice\\input_file\\test.dnd",
+  "Output folder": "C:\\DNDC\\Result\\Record\\Site",
+  "Number of process": 1,
+  "Genetic algorithm": [
+    {
+      "Size of population":4500,
+      "Number of generations": 10,
+      "Function to evaluate with DNDC": [
+        {
+          "Value": "annual_CH4",
+          "Weight: negative minimization, positive maximization": -1
+        },
+        {
+          "Value": "annual_grain_yield",
+          "Weight: negative minimization, positive maximization": 1
+        },
+        {
+          "Value": "annual_N2O",
+          "Weight: negative minimization, positive maximization": -1
+        },
+        {
+          "Value": "annual_water",
+          "Weight: negative minimization, positive maximization": -1
+        }
+      ]
+    }
+  ],
+  
+  
+  "Variables": [
+     
+     { "DNDC Name": "______Planting_month",
+      "Range": [
+        4,
+        5
+      ],
+      "Moltiplication factor": 1
+     
+    },  
+         
+     { "DNDC Name": "______Planting_day",
+      "Range": [
+        1,
+        30
+      ],
+      "Moltiplication factor": 1
+     
+    },  
+  
+     { "DNDC Name": "______Till_method",
+      "Range": [
+        3,
+        5
+      ],
+      "Moltiplication factor": 1
+     
+    },
+
+     { "DNDC Name": "______Start_day1",
+      "Range": [
+        1,
+        15
+      ],
+      "Moltiplication factor": 1
+     
+    },
+    
+    {
+      "DNDC Name": "______Start_day2",
+      "Range": [
+        16,
+        30
+      ],
+      "Moltiplication factor": 1
+      
+    },
+        {
+      "DNDC Name": "______Start_day3",
+      "Range": [
+        1,
+        15
+      ],
+      "Moltiplication factor": 1
+    },
+    {
+      "DNDC Name": "______Start_day4",
+      "Range": [
+        16,
+        31
+      ],
+      "Moltiplication factor": 1
+      
+    },
+    {
+      "DNDC Name": "______Start_day5",
+      "Range": [
+        1,
+        15
+      ],
+      "Moltiplication factor": 1
+      
+    },
+    
+    {
+      "DNDC Name": "______Start_day6",
+      "Range": [
+        16,
+        30
+      ],
+      "Moltiplication factor": 1
+     
+    },
+    {
+      "DNDC Name": "______Start_day7",
+      "Range": [
+        1,
+        15
+      ],
+      "Moltiplication factor": 1
+      
+    },
+        {
+      "DNDC Name": "______Start_day8",
+      "Range": [
+        16,
+        31
+      ],
+      "Moltiplication factor": 1
+    },
+    {
+      "DNDC Name": "______Start_day9",
+      "Range": [
+        1,
+        15
+      ],
+      "Moltiplication factor": 1
+      
+    },
+    {
+      "DNDC Name": "______Start_day10",
+      "Range": [
+        16,
+        30
+      ],
+      "Moltiplication factor": 1
+      
+    },
+    {
+      "DNDC Name": "______Nitrate",
+      "Range": [
+        0,
+        140
+      ],
+      "Moltiplication factor": 1
+      
+    }
+  ]
+}
+
