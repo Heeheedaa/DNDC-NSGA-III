@@ -3,6 +3,9 @@
 Created on Wed Mar  3 12:20:33 2021
 
 @author: Environment Ecology
+
+This work was developed based on the following reference:
+Prina, M.G. et al., 2018. Multi-objective optimization algorithm coupled to EnergyPLAN software: The EPLANopt model. Energy, 149: 213-221.
 """
 
 import os
